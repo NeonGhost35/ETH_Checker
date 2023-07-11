@@ -1,6 +1,8 @@
 # ETH_Checker
 ETH CHECKER
 
+BOT IS IN THE EARLY STAGE OF DEVELOPMENT, BUGS AND BUGS ARE POSSIBLE
+ 
 Telegram bot for tracking the balance on several ETH wallets.
 
 How to use:
