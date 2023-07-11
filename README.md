@@ -13,6 +13,7 @@ How to use:
     2 - "Run checker" - starts tracking all entered wallets
 
 In the future, the project will be finalized:
-    Transaction tracking will appear
-    Possibility to manage wallets through seed
-    Transaction log for each wallet
+
+    1) Transaction tracking will appear
+    2) Possibility to manage wallets through seed
+    3) Transaction log for each wallet
