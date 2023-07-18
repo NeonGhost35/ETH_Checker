@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import telebot
 from etherscan import Etherscan
 import os
@@ -43,7 +46,7 @@ def send_text(message):
                 for line in wordlist:
                     addres = line.split(':')[0]
                     oldbalance = line.split(':')[1]
-                    newbalance = int(eth.get_eth_balance(message.text)) / 1000000000000000000
+                    newbalance = int(eth.get_eth_balance(addres)) / 1000000000000000000
                     if oldbalance == newbalance:
                         pass
                     else:
